@@ -1,0 +1,43 @@
+
+.card{
+    width: 250px;
+    background: red;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color: aquamarine;
+    font: bold;
+    font-size: large;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    color: red;
+    background: rgb(54, 54, 196);
+}
+
+body{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid blue;
+    margin-bottom: 2%;
+}
+
